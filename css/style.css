@@ -64,9 +64,10 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
+  font-size: 30px;
   font-family: 'Amatic SC', cursive;
   font-weight: 400;
-  margin: 0 0 20px 0;
+  margin: 0 0 10px 0;
 }
 
 ::-webkit-selection {
@@ -125,7 +126,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline;
 }
 .fh5co-nav ul li a {
-  font-size: 40px;
+  font-size: 35px;
   padding: 30px 10px;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.5);
@@ -296,7 +297,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-cover {
-  height: 900px;
+  height: 800px;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -322,7 +323,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-cover .display-t,
 .fh5co-cover .display-tc {
-  height: 900px;
+  height: 850px;
   display: table;
   width: 100%;
 }
@@ -403,7 +404,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-counter .event-wrap,
 #fh5co-event .event-wrap {
   border: 2px solid rgba(255, 255, 255, 0.5);
-  background: rgba(255, 255, 255, 0.1);
+  background: rgb(0 0 0 / 82%);
   padding: 30px;
   width: 100%;
   float: left;
@@ -432,7 +433,11 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-event .event-wrap p,
 #fh5co-event .event-wrap span {
   display: block;
-  color: rgba(255, 255, 255, 0.8);
+  font-size: 30px;
+  color: rgba(255, 255, 255);
+}
+#blanco {
+  color: #FFF;
 }
 #fh5co-counter .event-wrap i,
 #fh5co-event .event-wrap i {
@@ -1006,7 +1011,7 @@ form label {
 #fh5co-couple,
 #fh5co-gallery,
 .fh5co-section {
-  padding: 7em 0;
+  padding-bottom: 5em;
   clear: both;
 }
 @media screen and (max-width: 768px) {
@@ -1041,16 +1046,15 @@ form label {
 .heart {
   position: absolute;
   top: 4em;
-  left: 0;
-  right: 0;
+  right: 36em;
   z-index: 99;
   animation: pulse 1s ease infinite;
 }
 .heart i {
   font-size: 20px;
-  background: #fff;
+  background: #F14E95;
   padding: 20px;
-  color: #F14E95;
+  color: #fff;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
@@ -1064,6 +1068,7 @@ form label {
 
 .couple-half {
   width: 50%;
+  display: flex;
   float: left;
 }
 @media screen and (max-width: 768px) {
@@ -1113,12 +1118,19 @@ form label {
   margin-left: 5px;
 }
 .couple-half .desc-groom {
-  padding-right: 180px;
+  padding-right: 20px;
   text-align: right;
+  display: flex;
+  align-items: center;
+}
+.box-centerr {
+ margin-left: 150px;
 }
 .couple-half .desc-bride {
-  padding-left: 180px;
+  padding-left: 20px;
   text-align: left;
+  display: flex;
+  align-items: center;
 }
 @media screen and (max-width: 480px) {
   .couple-half .groom, .couple-half .bride {
@@ -1178,7 +1190,8 @@ form label {
 }
 
 .fh5co-heading {
-  margin-bottom: 5em;
+  margin-bottom: 4em;
+  margin-top: 3em;
 }
 .fh5co-heading.fh5co-heading-sm {
   margin-bottom: 2em;
@@ -1188,7 +1201,7 @@ form label {
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: bold;
-  color: #B57EDC;
+  color: #f14e95;
   font-family: "Fleur De Leah", Arial, serif;
 }
 @media screen and (max-width: 768px) {
@@ -1197,7 +1210,7 @@ form label {
   }
 }
 .fh5co-heading p {
-  font-size: 18px;
+  font-size: 24px;
   line-height: 1.5;
   color: #828282;
 }
