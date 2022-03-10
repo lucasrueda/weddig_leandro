@@ -358,8 +358,11 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-counter,
 #fh5co-event {
-  height: 850px;
+  height: 960px;
   float: left;
+}
+.regalo_parrafo {
+  margin-bottom: 3em;
 }
 #fh5co-counter .display-t,
 #fh5co-counter .display-tc,
@@ -1213,8 +1216,8 @@ form label {
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: bold;
-  color: #f14e95;
-  font-family: "Fleur De Leah", Arial, serif;
+  color: #880e4f;
+  font-family: 'Great Vibes', cursive;
 }
 @media screen and (max-width: 768px) {
   .fh5co-heading h2 {
