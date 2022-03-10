@@ -60,6 +60,8 @@ a:hover, a:active, a:focus {
 
 p {
   margin-bottom: 20px;
+  color: black;
+  font-size: 1.8em;
 }
 
 h1, h2, h3, h4, h5, h6, figure {
@@ -421,13 +423,20 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-counter .event-wrap h3,
 #fh5co-event .event-wrap h3 {
-  font-size: 20px;
+  font-size: 30px;
   color: #fff;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   display: block;
   padding-bottom: 20px;
   text-transform: uppercase;
   letter-spacing: 2px;
+}
+#goldie {
+  color: #ffeb3b !important;
+}
+#importante_red {
+  color: #3aff00 !important;
+  font-size: 40px !important;
 }
 #fh5co-counter .event-wrap p, #fh5co-counter .event-wrap span,
 #fh5co-event .event-wrap p,
@@ -438,6 +447,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #blanco {
   color: #FFF;
+  margin-top: -4%;
 }
 #fh5co-counter .event-wrap i,
 #fh5co-event .event-wrap i {
@@ -587,9 +597,11 @@ h1, h2, h3, h4, h5, h6, figure {
 .date {
   display: block;
   margin-bottom: 20px;
-  font-size: 13px;
+  font-size: 20px;
   text-transform: uppercase;
   letter-spacing: 2px;
+  color: #f14e95;
+  font-weight: 700;
 }
 
 .timeline-body > p,
@@ -1034,6 +1046,7 @@ form label {
 
 .couple-wrap {
   width: 90%;
+  display: flex;
   margin: 0 auto;
   position: relative;
 }
@@ -1044,10 +1057,9 @@ form label {
 }
 
 .heart {
-  position: absolute;
-  top: 4em;
-  right: 36em;
   z-index: 99;
+  margin-top: 2em;
+    margin-right: 3em;
   animation: pulse 1s ease infinite;
 }
 .heart i {
@@ -1190,7 +1202,7 @@ form label {
 }
 
 .fh5co-heading {
-  margin-bottom: 4em;
+  margin-bottom: 2em;
   margin-top: 3em;
 }
 .fh5co-heading.fh5co-heading-sm {
@@ -1210,9 +1222,9 @@ form label {
   }
 }
 .fh5co-heading p {
-  font-size: 24px;
+  font-size: 35px;
   line-height: 1.5;
-  color: #828282;
+  color: #000000;;
 }
 .fh5co-heading span {
   text-transform: uppercase;
@@ -1343,7 +1355,7 @@ form label {
 .feature-left .feature-copy h3 {
   text-transform: uppercase;
   font-size: 18px;
-  color: #5d5d5d;
+  color: #f14e95;
   margin-bottom: 10px;
 }
 
@@ -1490,6 +1502,10 @@ form label {
 #fh5co-offcanvas ul li.offcanvas-has-dropdown > a {
   display: block;
   position: relative;
+}
+.margen_inf_piola
+{
+  margin-bottom: 3em;
 }
 #fh5co-offcanvas ul li.offcanvas-has-dropdown > a:after {
   position: absolute;
