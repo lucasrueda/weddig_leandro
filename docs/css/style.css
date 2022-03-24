@@ -301,6 +301,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-cover {
   height: 800px;
   background-size: cover;
+  background-position: center!important;
   background-repeat: no-repeat;
   position: relative;
   width: 100%;
@@ -422,6 +423,7 @@ h1, h2, h3, h4, h5, h6, figure {
   #fh5co-counter .event-wrap,
   #fh5co-event .event-wrap {
     margin-bottom: 10px;
+    padding: 0!important;
   }
 }
 #fh5co-counter .event-wrap h3,
@@ -1048,21 +1050,27 @@ form label {
 }
 
 .couple-wrap {
-  width: 90%;
+  width: 100%;
   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
   margin: 0 auto;
   position: relative;
 }
 @media screen and (max-width: 768px) {
   .couple-wrap {
     width: 100%;
+    flex-direction: column;
+  }
+  .couple-half{
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
   }
 }
 
 .heart {
   z-index: 99;
-  margin-top: 2em;
-    margin-right: 3em;
   animation: pulse 1s ease infinite;
 }
 .heart i {
@@ -1082,8 +1090,9 @@ form label {
 }
 
 .couple-half {
-  width: 50%;
+  width: 100%;
   display: flex;
+  justify-content: center;
   float: left;
 }
 @media screen and (max-width: 768px) {
@@ -1229,14 +1238,11 @@ form label {
 
   .mapa_medidas
   {
-    width: 320px;
+    width: 100%;
   }
   .formulario_medidas
   {
-    width: 320px;
-  }
-  .box-centerr {
-    margin-left: 0px !important;
+    width: 100%;
   }
  
 }
